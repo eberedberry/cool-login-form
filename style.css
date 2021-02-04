@@ -1,12 +1,11 @@
-*
-{
+* {
     margin:0;
     padding:0;
     box-sizing: border-box;
     font-family:sans-serif;
 }
 
-.body{
+body{
     height: 100vh;
     background-color:black;
     color:white;
@@ -22,12 +21,12 @@ button{
     cursor:pointer;
     border: 1px solid white;
     outline:none;
-    /* color: white; */
+    color: white;
     background-color: transparent;
     transition: 0.8s;
 }
 
-::hover
+button:hover
 {
     transform: scale(1.2);
 }
